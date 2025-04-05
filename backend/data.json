@@ -1,0 +1,47 @@
+[
+  {
+    "name": "London Central Showroom",
+    "city": "London",
+    "type": "Flagship",
+    "address": {
+      "street": "123 Oxford St",
+      "postcode": "W1D 1AA"
+    },
+    "open_hours": {
+      "mon_fri": "9:00 - 18:00",
+      "sat": "10:00 - 16:00",
+      "sun": "Closed"
+    },
+    "contact_email": "central@showrooms.co.uk"
+  },
+  {
+    "name": "London East Showroom",
+    "city": "London",
+    "type": "Design Studio",
+    "address": {
+      "street": "789 Shoreditch High St",
+      "postcode": "E1 6JJ"
+    },
+    "open_hours": {
+      "mon_fri": "10:00 - 19:00",
+      "sat": "10:00 - 17:00",
+      "sun": "Closed"
+    },
+    "contact_email": "east@showrooms.co.uk"
+  },
+  {
+    "name": "Manchester Design Hub",
+    "city": "Manchester",
+    "type": "Flagship",
+    "address": {
+      "street": "456 King St",
+      "postcode": "M2 4LQ"
+    },
+    "open_hours": {
+      "mon_fri": "9:00 - 18:00",
+      "sat": "10:00 - 15:00",
+      "sun": "Closed"
+    },
+    "contact_email": "manchester@showrooms.co.uk"
+  }
+]
