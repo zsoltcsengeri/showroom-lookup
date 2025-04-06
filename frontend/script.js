@@ -2,7 +2,7 @@ const $form = document.querySelector("#searchForm");
 const $cityInput = document.querySelector("#cityInput");
 const $resultsList = document.querySelector("#results");
 
-$form.addEventListener("submit", (event)=>{
+$form.addEventListener("submit", (event) => {
   event.preventDefault();
   lookupShowrooms();
 });
@@ -26,6 +26,7 @@ function lookupShowrooms() {
       } else {
         data.forEach((showroom) => {
           const li = document.createElement("li");
+          li.classList.add("showroom-item");
           li.innerHTML = `
             <strong>${showroom.name}</strong> (${showroom.type})<br>
             <em>${showroom.address}</em><br>

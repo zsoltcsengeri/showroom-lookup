@@ -1,52 +1,68 @@
+/* Global page styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    padding: 30px;
-    color: #333;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    color: #2a5d9f;
-  }
-  
-  input, button {
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #2a5d9f;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  button:hover {
-    background-color: #1b3f72;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .showroom-item {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 15px;
-    padding: 15px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  form {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-    gap: 10px;
-    
-  }
-    
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Page title */
+h1 {
+  color: #2a5d9f;
+  margin-bottom: 20px;
+}
+
+/* Input & button */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #2a5d9f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b3f72;
+}
+
+/* Results container */
+#resultsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Individual showroom cards */
+.showroom-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Remove the bullet point */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
