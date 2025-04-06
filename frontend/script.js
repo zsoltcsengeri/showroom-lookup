@@ -18,7 +18,7 @@ function lookupShowrooms() {
   const city = $cityInput.value;
   $resultsList.innerHTML = "";
 
-  fetch(`http://127.0.0.1:8000/showrooms?city=${city}`)
+  fetch(`http://52.56.223.97:8000/showrooms?city=${city}`)
     .then((response) => response.json())
     .then((data) => {
       if (data.length === 0) {
